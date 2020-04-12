@@ -5,6 +5,6 @@ yarn.lock
 
 # parcel generated files
 
-dist/
+build/
 
 .cache
