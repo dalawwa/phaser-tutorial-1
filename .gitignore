@@ -1,6 +1,8 @@
 # Dependency directories
 node_modules/
 
+yarn.lock
+
 # parcel generated files
 
 dist/
