@@ -1,2 +1,8 @@
 # Dependency directories
 node_modules/
+
+# parcel generated files
+
+dist/
+
+.cache
