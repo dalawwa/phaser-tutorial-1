@@ -6,7 +6,7 @@
   "author": "Dany Alawwa <dany@goldwasserexchange.be>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn copy-assets && parcel build index.html --no-source-maps -d build",
+    "build": "yarn copy-assets && parcel build src/index.html --no-source-maps -d build",
     "clean": "rm -rf build",
     "copy-assets": "yarn clean && mkdir build && cp -R public/* build",
     "serve": "serve -s build",
